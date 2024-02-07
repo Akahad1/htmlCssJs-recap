@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .continer{
+            
+            border: 1px solid green;
+            height: 300px;
+            width: 60px;
+            
+        }
+        .continer{
+            background-color: aqua;
+        }
+        .box{
+            height: 50px;
+            width: 60px;
+            border: 1px solid gold;
+            background-color: brown;
+            /* transform: scale(0.5) rotate(45deg); */
+            transition: height 2s linear , width 2s linear , transform 2s;
+        }
+        .box:hover{
+            height: 100px;
+            width: 100px;
+            transform: rotate(45deg);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Transfrom</h1>
+    <div class="continer">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+    </div>
+    
+</body>
+</html>
