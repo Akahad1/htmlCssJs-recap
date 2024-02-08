@@ -37,3 +37,21 @@ while(bat<2){
 for(var bat=0; bat<5;bat++){
     console.log('bat den vai')
 }
+
+// const fruits ={apple:5, mango:9, jakfruit:7}
+// odd man jokfoll
+
+const studentsRoll =[12,5,14,2,2,76,1,1]
+ let sums =0
+for( i=0;i<studentsRoll.length;i++){
+    const studentRoll=studentsRoll[i]
+   if(studentRoll%2 ==0){
+   console.log('this is even number ') 
+
+   }
+   else{
+    // console.log(studentRoll)
+    sums=sums+studentRoll;
+    console.log(sums)
+   }
+}
